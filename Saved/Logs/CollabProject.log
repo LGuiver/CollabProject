@@ -809,3 +809,51 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.06-20.55.52:942][435]LogAudioMixer: Resetting audio stream to device id 
 [2022.03.06-20.55.52:958][435]LogAudioMixer: Display: 0: FrontLeft
 [2022.03.06-20.55.52:958][435]LogAudioMixer: Display: 1: FrontRight
+[2022.03.06-22.27.29:485][570]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.03.06-22.27.30:033][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/EF_Sam/Meshes/SamRoomBed_a': Can't find file.
+[2022.03.06-22.27.30:033][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/EF_Sam/Meshes/SamRoomBed_a': Can't find file.
+[2022.03.06-22.27.30:033][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/Stairs_Blockout': Can't find file.
+[2022.03.06-22.27.30:033][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/Stairs_Blockout': Can't find file.
+[2022.03.06-22.27.30:800][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/EF_Sam/Meshes/SamRoomBed_a': Can't find file.
+[2022.03.06-22.27.30:800][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/Stairs_Blockout': Can't find file.
+[2022.03.06-22.27.30:812][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/EF_Sam/Meshes/SamRoomBed_a': Can't find file.
+[2022.03.06-22.27.30:825][570]LoadErrors: Failed to load /Game/EF_Sam/Meshes/SamRoomBed_a.SamRoomBed_a Referenced by SamRoomBed_a_40
+[2022.03.06-22.27.30:825][570]LogLinker: Warning: [AssetLog] D:\Unreal\CollabProject\Content\Level_Blockout.umap: Failed to load '/Game/Stairs_Blockout': Can't find file.
+[2022.03.06-22.27.30:825][570]LoadErrors: Failed to load /Game/Stairs_Blockout.Stairs_Blockout Referenced by Stairs_Blockout_59
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:004][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:005][407]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Unreal/CollabProject'
+[2022.03.06-22.27.41:224][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.06-22.27.41:294][407]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2022.03.06-22.27.41:354][407]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_BlockoutC73E1FA14C5526EDC3521EAA417ED325.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.03.06-22.27.41:364][407]LogFileHelpers: Saving map 'Level_Blockout' took 0.140
+[2022.03.06-22.27.41:364][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout_BuiltData" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout_BuiltData.uasset" SILENT=true
+[2022.03.06-22.27.41:443][407]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_Blockout_BuiltDataC7536BAD4226C193DD25569772214108.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout_BuiltData.uasset'
+[2022.03.06-22.27.56:458][407]LogSlate: Window 'Submit Files' being destroyed
+[2022.03.06-22.27.57:774][407]LogSourceControl: commit successful: [main 1b6c280] Rash's blockout
+[2022.03.06-22.27.57:826][407]SourceControl: [main 1b6c280] Rash's blockout
+[2022.03.06-22.27.57:826][407]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2022.03.06-22.27.57:826][407]SourceControl:  create mode 100644 Content/Level_Blockout.umap
+[2022.03.06-22.27.57:826][407]SourceControl:  create mode 100644 Content/Level_Blockout_BuiltData.uasset
+[2022.03.06-22.27.57:833][407]SourceControl: Commited [main 1b6c280] Rash's blockout.
+[2022.03.06-22.27.57:915][408]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.06-22.27.57:923][408]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.03.06-22.27.57:924][408]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level_Blockout_BuiltData.Level_Blockout_BuiltData
