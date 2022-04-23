@@ -20807,3 +20807,1597 @@ Make sure 'Level_Blockout' has been compiled for  Open
 [2022.04.23-09.51.23:555][790]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/Core/HorrorEngineCharacter.HorrorEngineCharacter
 [2022.04.23-09.51.23:555][790]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
 [2022.04.23-09.51.23:555][790]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Level_Blockout_BuiltData.Level_Blockout_BuiltData
+[2022.04.23-09.53.02:976][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.04.23-09.53.09:500][231]LogAssetEditorSubsystem: Opening Asset editor for World /Game/HorrorEngine/Maps/Overview.Overview
+[2022.04.23-09.53.09:500][231]Cmd: MAP LOAD FILE="../../../../../../Unreal/CollabProject/Content/HorrorEngine/Maps/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.23-09.53.09:500][231]LightingResults: New page: Lighting Build
+[2022.04.23-09.53.09:500][231]LoadErrors: New page: Loading map: Overview.umap
+[2022.04.23-09.53.09:556][231]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-09.53.09:557][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-09.53.09:633][231]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-09.53.09:634][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-09.53.09:634][231]MapCheck: New page: Map Check
+[2022.04.23-09.53.09:634][231]LightingResults: New page: Lighting Build
+[2022.04.23-09.53.09:668][231]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-09.53.09:700][231]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2022.04.23-09.53.09:709][231]LogAudio: Display: Audio Device (ID: 1) registered with world 'Overview'.
+[2022.04.23-09.53.10:207][231]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.23-09.53.10:207][231]LogAIModule: Creating AISystem for world Overview
+[2022.04.23-09.53.10:253][231]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.04.23-09.53.10:256][231]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.23-09.53.10:256][231]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
+[2022.04.23-09.53.10:256][231]LogFileHelpers: Loading map 'Overview' took 0.757
+[2022.04.23-09.53.10:331][231]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: InstancedStaticMeshComponent /Game/HorrorEngine/Maps/Overview.Overview:PersistentLevel.LadderAdvanced_359.LadderConnect)
+[2022.04.23-09.53.10:331][231]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: InstancedStaticMeshComponent /Game/HorrorEngine/Maps/Overview.Overview:PersistentLevel.LadderAdvanced3_512.LadderConnect)
+[2022.04.23-09.53.14:168][465]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-09.53.14:171][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-09.53.14:171][465]PIE: New page: PIE session: Overview (23 Apr 2022, 11:53:14)
+[2022.04.23-09.53.14:171][465]LogPlayLevel: Creating play world package: /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2022.04.23-09.53.14:268][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097231s)
+[2022.04.23-09.53.14:269][465]LogAIModule: Creating AISystem for world Overview
+[2022.04.23-09.53.14:269][465]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2022.04.23-09.53.14:269][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorEngine/Maps/Overview.Overview to /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview (0.098260s)
+[2022.04.23-09.53.14:300][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.04.23-09.53.14:305][465]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-09.53.14:305][465]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-09.53.14:305][465]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-09.53.14:305][465]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-09.53.14:308][465]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-09.53.14:308][465]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-09.53.14:312][465]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.04.23-09.53.14:312][465]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-09.53.14:312][465]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-09.53.14:312][465]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-09.53.14:312][465]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-09.53.14:312][465]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-09.53.14:312][465]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-09.53.14:323][465]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-09.53.14:323][465]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-09.53.14:323][465]LogInit: FAudioDevice initialized.
+[2022.04.23-09.53.14:323][465]LogAudio: Display: Audio Device (ID: 36) registered with world 'Overview'.
+[2022.04.23-09.53.14:328][465]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-09.53.14:346][465]LogWorld: Bringing World /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2022.04.23-10.53.14
+[2022.04.23-09.53.14:346][465]LogWorld: Bringing up level for play took: 0.016616
+[2022.04.23-09.53.14:346][465]LogOnline: OSS: Creating online subsystem instance for: :Context_91
+[2022.04.23-09.53.14:348][465]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-09.53.15:088][465]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-09.53.15:128][465]PIE: Server logged in
+[2022.04.23-09.53.15:129][465]PIE: Play in editor total start time 0.959 seconds.
+[2022.04.23-09.53.22:820][264]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/HorrorEngine/Audio/Footsteps/Rock_Cue.Rock_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.04.23-09.53.24:261][372]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.24:261][372]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.25:918][493]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.25:918][493]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.27:219][599]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.27:219][599]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.28:132][676]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.28:133][676]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.29:809][804]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.29:809][804]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.31:648][952]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.31:648][952]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.32:243][  0]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/HorrorEngine/Audio/LighterAndTorch/LighterClose_Cue.LighterClose_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.04.23-09.53.35:504][259]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.35:504][259]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2022.04.23-09.53.53:639][681]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/HorrorEngine/Audio/VhsPlayer/VhsPlayerOn_Cue.VhsPlayerOn_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.04.23-09.53.59:731][149]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/HorrorEngine/Audio/VhsPlayer/VhsPlayerOff_Cue.VhsPlayerOff_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.04.23-09.54.10:448][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-09.54.10:448][989]LogWorld: BeginTearingDown for /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2022.04.23-09.54.10:448][989]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-09.54.10:451][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-09.54.10:459][989]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-09.54.10:466][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-09.54.10:498][989]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-09.54.10:498][989]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-09.54.10:499][989]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-09.54.10:511][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-09.54.10:523][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.04.23-09.54.10:544][990]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2022.04.23-09.54.12:338][107]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable32)
+[2022.04.23-09.54.46:858][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.04.23-09.54.52:229][368]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-09.54.52:229][368]Cmd: MAP LOAD FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.23-09.54.52:229][368]LightingResults: New page: Lighting Build
+[2022.04.23-09.54.52:229][368]LoadErrors: New page: Loading map: Level_Blockout.umap
+[2022.04.23-09.54.52:231][368]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: InstancedStaticMeshComponent /Game/HorrorEngine/Maps/Overview.Overview:PersistentLevel.LadderAdvanced_359.LadderConnect)
+[2022.04.23-09.54.52:231][368]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: InstancedStaticMeshComponent /Game/HorrorEngine/Maps/Overview.Overview:PersistentLevel.LadderAdvanced3_512.LadderConnect)
+[2022.04.23-09.54.52:235][368]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-09.54.52:235][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-09.54.52:236][368]MapCheck: New page: Map Check
+[2022.04.23-09.54.52:236][368]LightingResults: New page: Lighting Build
+[2022.04.23-09.54.52:268][368]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-09.54.52:288][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.04.23-09.54.52:290][368]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_Blockout'.
+[2022.04.23-09.54.52:562][368]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.23-09.54.52:562][368]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-09.54.52:598][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.04.23-09.54.52:601][368]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.23-09.54.52:601][368]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2022.04.23-09.54.52:601][368]LogFileHelpers: Loading map 'Level_Blockout' took 0.372
+[2022.04.23-09.55.19:735][450]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{66e63f39-9f27-4d5e-ae82-df10d3236ac0}.
+[2022.04.23-09.55.19:735][450]LogAudioMixer: Resetting audio stream to device id 
+[2022.04.23-09.55.19:750][450]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-09.55.19:750][450]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-10.51.11:393][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TeddyBear_a)
+[2022.04.23-10.51.12:303][294]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable)
+[2022.04.23-10.51.45:704][200]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2022.04.23-10.51.45:723][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Saved/Autosaves/Game/Level_Blockout_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.23-10.51.45:847][200]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_Blockout_Auto4B256DE08403E36CC6066E2925D9E2C94.tmp' to '../../../../../../Unreal/CollabProject/Saved/Autosaves/Game/Level_Blockout_Auto4.umap'
+[2022.04.23-10.51.45:848][200]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_Blockout' took 0.190
+[2022.04.23-10.51.45:848][200]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.190
+[2022.04.23-10.51.47:437][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TeddyBear_a)
+[2022.04.23-10.51.50:030][695]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable)
+[2022.04.23-10.51.55:086][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TeddyBear_a)
+[2022.04.23-10.51.57:479][556]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable)
+[2022.04.23-10.52.07:795][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TeddyBear_a)
+[2022.04.23-10.52.09:346][782]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable)
+[2022.04.23-10.52.11:385][999]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineDebugMaterials/HeatmapMaterial.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineDebugMaterials/HeatmapMaterial.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.52.11:385][999]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.52.14:520][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TeddyBear_a)
+[2022.04.23-10.52.16:093][530]Cmd: DELETE
+[2022.04.23-10.52.16:093][530]Cmd: ACTOR DELETE
+[2022.04.23-10.52.16:100][530]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.52.16:132][530]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2022.04.23-10.52.16:144][530]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2022.04.23-10.52.18:383][797]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable)
+[2022.04.23-10.52.22:277][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mesh_Wall_72)
+[2022.04.23-10.52.23:189][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mesh_Floor_Bedroom_4)
+[2022.04.23-10.52.35:476][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPig_a2)
+[2022.04.23-10.52.36:848][898]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable2)
+[2022.04.23-10.52.48:644][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPig_a2)
+[2022.04.23-10.52.54:152][880]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable2)
+[2022.04.23-10.53.04:792][987]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineDebugMaterials/HeatmapMaterial.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineDebugMaterials/HeatmapMaterial.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.53.04:792][987]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.53.07:233][207]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineMeshes/BackgroundMaterial.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineMeshes/BackgroundMaterial.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.53.17:704][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPig_a2)
+[2022.04.23-10.53.18:399][518]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable2)
+[2022.04.23-10.53.26:674][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPig_a2)
+[2022.04.23-10.53.28:951][746]Cmd: DELETE
+[2022.04.23-10.53.28:951][746]Cmd: ACTOR DELETE
+[2022.04.23-10.53.28:959][746]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.53.28:994][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.04.23-10.53.29:005][746]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2022.04.23-10.53.32:972][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPig_a)
+[2022.04.23-10.53.33:563][283]Cmd: DELETE
+[2022.04.23-10.53.33:563][283]Cmd: ACTOR DELETE
+[2022.04.23-10.53.33:570][283]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.53.33:600][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.04.23-10.53.33:603][283]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2022.04.23-10.53.33:939][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPig_a3)
+[2022.04.23-10.53.34:047][332]Cmd: DELETE
+[2022.04.23-10.53.34:047][332]Cmd: ACTOR DELETE
+[2022.04.23-10.53.34:054][332]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.53.34:084][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.04.23-10.53.34:085][332]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2022.04.23-10.53.35:082][451]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable2)
+[2022.04.23-10.53.36:520][618]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.53.38:917][898]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.53.41:392][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyChicken_a4)
+[2022.04.23-10.53.44:931][607]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable4)
+[2022.04.23-10.53.45:882][716]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.53.55:060][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyChicken_a4)
+[2022.04.23-10.53.59:133][117]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable5)
+[2022.04.23-10.54.10:144][167]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/BufferVisualization/CustomStencil.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/BufferVisualization/CustomStencil.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.54.10:144][167]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap_Mat.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap_Mat.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.54.11:700][300]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/BufferVisualization/PreTonemapHDRColor.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/BufferVisualization/PreTonemapHDRColor.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.54.11:700][300]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.54.11:700][300]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/VREditor/Devices/Vive: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/VREditor/Devices/Vive' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.54.17:721][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyChicken_a4)
+[2022.04.23-10.54.19:857][182]Cmd: DELETE
+[2022.04.23-10.54.19:857][182]Cmd: ACTOR DELETE
+[2022.04.23-10.54.19:865][182]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.54.19:897][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.04.23-10.54.19:905][182]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2022.04.23-10.54.20:270][226]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable5)
+[2022.04.23-10.54.22:814][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyChicken_a2)
+[2022.04.23-10.54.23:174][563]Cmd: DELETE
+[2022.04.23-10.54.23:174][563]Cmd: ACTOR DELETE
+[2022.04.23-10.54.23:182][563]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.54.23:211][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.04.23-10.54.23:213][563]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2022.04.23-10.54.23:520][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyChicken_a)
+[2022.04.23-10.54.23:578][602]Cmd: DELETE
+[2022.04.23-10.54.23:578][602]Cmd: ACTOR DELETE
+[2022.04.23-10.54.23:586][602]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.54.23:616][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.04.23-10.54.23:617][602]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2022.04.23-10.54.23:998][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyChicken_a3)
+[2022.04.23-10.54.24:041][648]Cmd: DELETE
+[2022.04.23-10.54.24:041][648]Cmd: ACTOR DELETE
+[2022.04.23-10.54.24:049][648]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.54.24:079][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.04.23-10.54.24:080][648]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2022.04.23-10.54.24:618][712]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable5)
+[2022.04.23-10.54.26:222][899]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.54.28:706][189]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.54.30:878][442]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.54.38:048][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a2)
+[2022.04.23-10.54.42:752][819]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable4)
+[2022.04.23-10.54.44:342][  3]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.54.48:463][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a2)
+[2022.04.23-10.54.49:829][643]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable9)
+[2022.04.23-10.54.59:021][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a2)
+[2022.04.23-10.55.02:597][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a2)
+[2022.04.23-10.55.05:390][472]Cmd: DELETE
+[2022.04.23-10.55.05:390][472]Cmd: ACTOR DELETE
+[2022.04.23-10.55.05:398][472]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.55.05:430][472]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.04.23-10.55.05:439][472]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2022.04.23-10.55.06:295][575]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable9)
+[2022.04.23-10.55.25:886][635]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.55.29:399][ 48]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable10)
+[2022.04.23-10.55.30:837][219]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable10)
+[2022.04.23-10.55.31:553][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a5)
+[2022.04.23-10.55.33:820][570]Cmd: DELETE
+[2022.04.23-10.55.33:820][570]Cmd: ACTOR DELETE
+[2022.04.23-10.55.33:828][570]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.55.33:858][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.04.23-10.55.33:866][570]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2022.04.23-10.55.38:152][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a)
+[2022.04.23-10.55.38:490][121]Cmd: DELETE
+[2022.04.23-10.55.38:490][121]Cmd: ACTOR DELETE
+[2022.04.23-10.55.38:498][121]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.55.38:528][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.04.23-10.55.38:530][121]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2022.04.23-10.55.38:777][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a3)
+[2022.04.23-10.55.38:823][152]Cmd: DELETE
+[2022.04.23-10.55.38:823][152]Cmd: ACTOR DELETE
+[2022.04.23-10.55.38:831][152]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.55.38:861][152]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2022.04.23-10.55.38:861][152]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2022.04.23-10.55.39:173][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTree_a4)
+[2022.04.23-10.55.39:219][191]Cmd: DELETE
+[2022.04.23-10.55.39:219][191]Cmd: ACTOR DELETE
+[2022.04.23-10.55.39:227][191]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.55.39:257][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.04.23-10.55.39:258][191]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2022.04.23-10.55.39:628][235]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable10)
+[2022.04.23-10.55.40:891][381]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.55.42:825][606]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.55.45:231][888]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-10.55.54:898][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ModelTrain)
+[2022.04.23-10.55.55:673][ 76]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable14)
+[2022.04.23-10.56.03:235][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ModelTrain)
+[2022.04.23-10.56.05:443][135]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable14)
+[2022.04.23-10.56.13:729][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ModelTrain)
+[2022.04.23-10.56.15:140][249]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable14)
+[2022.04.23-10.56.22:940][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ModelTrain)
+[2022.04.23-10.56.24:162][321]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable14)
+[2022.04.23-10.56.27:956][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ModelTrain)
+[2022.04.23-10.56.28:982][890]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable14)
+[2022.04.23-10.56.49:382][307]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable14)
+[2022.04.23-10.56.50:022][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ModelTrain)
+[2022.04.23-10.56.51:633][572]Cmd: DELETE
+[2022.04.23-10.56.51:633][572]Cmd: ACTOR DELETE
+[2022.04.23-10.56.51:642][572]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.56.51:680][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.04.23-10.56.51:689][572]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2022.04.23-10.57.06:116][300]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (flashlight_a)
+[2022.04.23-10.57.08:550][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedsideTable_a)
+[2022.04.23-10.58.57:566][462]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorLandscapeResources/FlattenPlaneMesh.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorLandscapeResources/FlattenPlaneMesh.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-10.59.12:858][172]LogEditorViewport: Clicking on Actor (LMB): Flashlight_C (Flashlight)
+[2022.04.23-10.59.14:383][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (flashlight_a)
+[2022.04.23-10.59.16:565][612]LogEditorViewport: Clicking on Actor (LMB): Flashlight_C (Flashlight)
+[2022.04.23-10.59.29:987][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (flashlight_a)
+[2022.04.23-10.59.32:653][520]LogEditorViewport: Clicking on Actor (LMB): Flashlight_C (Flashlight)
+[2022.04.23-10.59.41:800][602]LogEditorViewport: Clicking on Actor (LMB): Flashlight_C (Flashlight)
+[2022.04.23-10.59.42:310][662]LogEditorViewport: Clicking on Actor (LMB): Flashlight_C (Flashlight)
+[2022.04.23-10.59.44:336][897]Cmd: DELETE
+[2022.04.23-10.59.44:336][897]Cmd: ACTOR DELETE
+[2022.04.23-10.59.44:345][897]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-10.59.44:381][897]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2022.04.23-10.59.44:392][897]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2022.04.23-10.59.46:470][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (glasses)
+[2022.04.23-11.00.12:501][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (glasses)
+[2022.04.23-11.00.15:234][460]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable15)
+[2022.04.23-11.00.20:813][ 70]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineMeshes/BackgroundMaterial.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineMeshes/BackgroundMaterial.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-11.00.20:813][ 70]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials/Cascade: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials/Cascade' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-11.00.20:813][ 70]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/ArtTools/RenderToTexture/Materials/M_BackgroundCard_01.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/ArtTools/RenderToTexture/Materials/M_BackgroundCard_01.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-11.00.20:813][ 70]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-11.00.20:813][ 70]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials/ThumbnailBack.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials/ThumbnailBack.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-11.00.25:364][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (glasses)
+[2022.04.23-11.00.26:676][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedsideTable_a)
+[2022.04.23-11.00.27:217][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedsideTable_a)
+[2022.04.23-11.00.29:574][107]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable15)
+[2022.04.23-11.00.32:181][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (glasses)
+[2022.04.23-11.00.38:875][214]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable15)
+[2022.04.23-11.00.44:629][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (glasses)
+[2022.04.23-11.00.47:516][231]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable15)
+[2022.04.23-11.00.57:803][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (glasses)
+[2022.04.23-11.00.59:601][645]Cmd: DELETE
+[2022.04.23-11.00.59:602][645]Cmd: ACTOR DELETE
+[2022.04.23-11.00.59:610][645]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-11.00.59:645][645]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2022.04.23-11.00.59:654][645]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2022.04.23-11.01.02:184][948]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-11.01.02:188][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-11.01.02:188][948]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 13:01:02)
+[2022.04.23-11.01.02:224][948]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.01.02:264][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039913s)
+[2022.04.23-11.01.02:265][948]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-11.01.02:265][948]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2022.04.23-11.01.02:265][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.041016s)
+[2022.04.23-11.01.02:295][948]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.04.23-11.01.02:295][948]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-11.01.02:296][948]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-11.01.02:296][948]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-11.01.02:296][948]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-11.01.02:299][948]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-11.01.02:299][948]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-11.01.02:306][948]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-11.01.02:306][948]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-11.01.02:306][948]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-11.01.02:306][948]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-11.01.02:306][948]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-11.01.02:306][948]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-11.01.02:306][948]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-11.01.02:318][948]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-11.01.02:318][948]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-11.01.02:318][948]LogInit: FAudioDevice initialized.
+[2022.04.23-11.01.02:318][948]LogAudio: Display: Audio Device (ID: 37) registered with world 'Level_Blockout'.
+[2022.04.23-11.01.02:323][948]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-11.01.02:335][948]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-12.01.02
+[2022.04.23-11.01.02:335][948]LogWorld: Bringing up level for play took: 0.010477
+[2022.04.23-11.01.02:336][948]LogOnline: OSS: Creating online subsystem instance for: :Context_99
+[2022.04.23-11.01.02:337][948]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-11.01.02:340][948]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-11.01.02:344][948]PIE: Server logged in
+[2022.04.23-11.01.02:345][948]PIE: Play in editor total start time 0.157 seconds.
+[2022.04.23-11.02.02:283][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.02.02:283][117]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.02.02:284][117]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-11.02.02:286][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.02.02:293][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-11.02.02:301][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.02.02:330][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.02.02:331][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.02.02:332][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.02.02:352][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.04.23-11.02.02:374][118]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2022.04.23-11.02.05:569][479]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable15)
+[2022.04.23-11.02.28:531][194]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable)
+[2022.04.23-11.03.18:498][121]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-11.03.18:502][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-11.03.18:502][121]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 13:03:18)
+[2022.04.23-11.03.18:540][121]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.03.18:580][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039777s)
+[2022.04.23-11.03.18:581][121]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-11.03.18:581][121]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2022.04.23-11.03.18:581][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.040724s)
+[2022.04.23-11.03.18:612][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.04.23-11.03.18:622][121]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2022.04.23-11.03.18:622][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-11.03.18:622][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-11.03.18:622][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-11.03.18:622][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-11.03.18:622][121]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-11.03.18:622][121]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-11.03.18:622][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-11.03.18:622][121]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-11.03.18:623][121]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-11.03.18:623][121]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-11.03.18:625][121]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-11.03.18:625][121]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-11.03.18:631][121]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-11.03.18:631][121]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-11.03.18:631][121]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-11.03.18:631][121]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-11.03.18:632][121]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-11.03.18:632][121]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-11.03.18:632][121]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-11.03.18:642][121]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-11.03.18:642][121]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-11.03.18:642][121]LogInit: FAudioDevice initialized.
+[2022.04.23-11.03.18:642][121]LogAudio: Display: Audio Device (ID: 38) registered with world 'Level_Blockout'.
+[2022.04.23-11.03.18:647][121]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-11.03.18:658][121]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-12.03.18
+[2022.04.23-11.03.18:658][121]LogWorld: Bringing up level for play took: 0.009750
+[2022.04.23-11.03.18:658][121]LogOnline: OSS: Creating online subsystem instance for: :Context_100
+[2022.04.23-11.03.18:660][121]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-11.03.18:663][121]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-11.03.18:666][121]PIE: Server logged in
+[2022.04.23-11.03.18:667][121]PIE: Play in editor total start time 0.166 seconds.
+[2022.04.23-11.03.44:291][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.03.44:291][190]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.03.44:292][190]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-11.03.44:294][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.03.44:299][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-11.03.44:320][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.03.44:363][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-11.03.44:363][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.03.44:364][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.03.44:376][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.03.44:383][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.04.23-11.03.44:426][191]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2022.04.23-11.03.45:609][319]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable14)
+[2022.04.23-11.03.49:368][742]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable13)
+[2022.04.23-11.03.53:532][220]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable12)
+[2022.04.23-11.03.56:147][518]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable10)
+[2022.04.23-11.03.59:479][909]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable11)
+[2022.04.23-11.04.01:789][167]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable9)
+[2022.04.23-11.04.09:778][ 88]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable4)
+[2022.04.23-11.04.15:595][736]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable5)
+[2022.04.23-11.04.18:819][101]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable3)
+[2022.04.23-11.04.21:450][402]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable7)
+[2022.04.23-11.04.26:139][933]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable6)
+[2022.04.23-11.04.30:328][416]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable8)
+[2022.04.23-11.04.34:321][878]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable2)
+[2022.04.23-11.04.49:169][618]LogEditorViewport: Clicking on Actor (LMB): Flashlight_C (Flashlight)
+[2022.04.23-11.04.50:632][787]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable15)
+[2022.04.23-11.04.54:161][185]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-11.04.54:164][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-11.04.54:165][185]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 13:04:54)
+[2022.04.23-11.04.54:187][185]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.04.54:227][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040161s)
+[2022.04.23-11.04.54:228][185]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-11.04.54:228][185]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2022.04.23-11.04.54:228][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.041106s)
+[2022.04.23-11.04.54:260][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.04.23-11.04.54:268][185]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2022.04.23-11.04.54:268][185]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-11.04.54:268][185]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-11.04.54:268][185]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-11.04.54:268][185]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-11.04.54:268][185]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-11.04.54:268][185]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-11.04.54:268][185]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-11.04.54:268][185]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-11.04.54:269][185]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-11.04.54:269][185]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-11.04.54:271][185]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-11.04.54:271][185]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-11.04.54:277][185]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-11.04.54:277][185]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-11.04.54:277][185]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-11.04.54:277][185]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-11.04.54:278][185]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-11.04.54:278][185]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-11.04.54:278][185]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-11.04.54:288][185]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-11.04.54:288][185]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-11.04.54:288][185]LogInit: FAudioDevice initialized.
+[2022.04.23-11.04.54:288][185]LogAudio: Display: Audio Device (ID: 39) registered with world 'Level_Blockout'.
+[2022.04.23-11.04.54:297][185]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-11.04.54:308][185]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-12.04.54
+[2022.04.23-11.04.54:309][185]LogWorld: Bringing up level for play took: 0.009840
+[2022.04.23-11.04.54:309][185]LogOnline: OSS: Creating online subsystem instance for: :Context_101
+[2022.04.23-11.04.54:310][185]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-11.04.54:313][185]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-11.04.54:317][185]PIE: Server logged in
+[2022.04.23-11.04.54:317][185]PIE: Play in editor total start time 0.153 seconds.
+[2022.04.23-11.05.37:987][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.05.37:987][410]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.05.37:987][410]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-11.05.37:989][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.05.37:995][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-11.05.38:017][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.05.38:046][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.05.38:048][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.05.38:049][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.05.38:070][410]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.04.23-11.05.38:113][411]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2022.04.23-11.05.38:663][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SharkPlushy_a)
+[2022.04.23-11.05.44:110][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SharkPlushy_a)
+[2022.04.23-11.05.45:220][212]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.05.51:448][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SharkPlushy_a)
+[2022.04.23-11.05.53:874][189]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.06.28:017][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SharkPlushy_a)
+[2022.04.23-11.06.29:602][267]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.06.52:926][  1]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.06.53:464][ 64]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.06.54:119][141]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.06.54:507][186]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.06.54:962][239]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.06.55:273][275]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.07.00:607][894]Cmd: DELETE
+[2022.04.23-11.07.00:607][894]Cmd: ACTOR DELETE
+[2022.04.23-11.07.00:616][894]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.23-11.07.00:651][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.04.23-11.07.00:661][894]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2022.04.23-11.07.01:468][991]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable16)
+[2022.04.23-11.07.06:790][583]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-11.07.06:794][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-11.07.06:794][583]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 13:07:06)
+[2022.04.23-11.07.06:833][583]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.07.06:873][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039403s)
+[2022.04.23-11.07.06:873][583]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-11.07.06:873][583]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2022.04.23-11.07.06:874][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.040429s)
+[2022.04.23-11.07.06:903][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.04.23-11.07.06:906][583]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2022.04.23-11.07.06:906][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-11.07.06:906][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-11.07.06:906][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-11.07.06:906][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-11.07.06:906][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-11.07.06:906][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-11.07.06:906][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-11.07.06:906][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-11.07.06:907][583]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-11.07.06:907][583]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-11.07.06:909][583]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-11.07.06:909][583]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-11.07.06:916][583]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-11.07.06:916][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-11.07.06:916][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-11.07.06:916][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-11.07.06:916][583]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-11.07.06:916][583]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-11.07.06:916][583]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-11.07.06:917][583]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-11.07.06:917][583]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-11.07.06:917][583]LogInit: FAudioDevice initialized.
+[2022.04.23-11.07.06:917][583]LogAudio: Display: Audio Device (ID: 40) registered with world 'Level_Blockout'.
+[2022.04.23-11.07.06:931][583]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-11.07.06:942][583]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-12.07.06
+[2022.04.23-11.07.06:943][583]LogWorld: Bringing up level for play took: 0.009614
+[2022.04.23-11.07.06:943][583]LogOnline: OSS: Creating online subsystem instance for: :Context_102
+[2022.04.23-11.07.06:944][583]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-11.07.06:947][583]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-11.07.06:951][583]PIE: Server logged in
+[2022.04.23-11.07.06:952][583]PIE: Play in editor total start time 0.158 seconds.
+[2022.04.23-11.07.27:893][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.07.27:893][ 90]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-11.07.27:893][ 90]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-11.07.27:896][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.07.27:905][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-11.07.27:926][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-11.07.27:955][ 90]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-11.07.27:955][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.07.27:956][ 90]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-11.07.27:968][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-11.07.27:975][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.04.23-11.07.28:012][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2022.04.23-11.07.30:565][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.04.23-11.07.30:659][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-11.07.30:686][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.04.23-11.07.30:820][374]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_BlockoutFA2595554132160D0589C68FDE55A245.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-11.07.30:826][374]LogFileHelpers: Saving map 'Level_Blockout' took 0.167
+[2022.04.23-11.07.30:843][374]AssetCheck: New page: Asset Save: Level_Blockout
+[2022.04.23-11.07.30:843][374]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-11.14.01:071][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Camera)
+[2022.04.23-11.14.56:136][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Diary)
+[2022.04.23-11.14.59:519][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mesh_Floor_Bedroom_7)
+[2022.04.23-11.15.00:614][269]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
+[2022.04.23-11.15.20:518][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Speaker)
+[2022.04.23-11.17.30:722][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.04.23-11.17.30:959][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Saved/Autosaves/Game/Level_Blockout_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.23-11.17.31:094][966]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_Blockout_Auto5B737E7F94C6D4CDDBB31DB86AE6F0336.tmp' to '../../../../../../Unreal/CollabProject/Saved/Autosaves/Game/Level_Blockout_Auto5.umap'
+[2022.04.23-11.17.31:095][966]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_Blockout' took 0.405
+[2022.04.23-11.17.31:096][966]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.405
+[2022.04.23-11.21.17:339][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.04.23-11.21.17:433][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-11.21.17:461][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.04.23-11.21.17:595][804]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_Blockout63020CF94FFDA359F83EF693EC323E52.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-11.21.17:598][804]LogFileHelpers: Saving map 'Level_Blockout' took 0.165
+[2022.04.23-11.21.17:612][804]AssetCheck: New page: Asset Save: Level_Blockout
+[2022.04.23-11.21.17:612][804]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.02.41:741][ 79]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\liamg\Desktop\GroupProject\DeadPoster.png)
+[2022.04.23-12.02.41:958][ 79]LogTexture: Display: Building textures: DeadPoster (AutoDXT, 2480X3508)
+[2022.04.23-12.02.43:419][ 79]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\liamg\Desktop\GroupProject\MissingPoster.png)
+[2022.04.23-12.02.43:569][ 79]LogTexture: Display: Building textures: MissingPoster (AutoDXT, 2480X3508)
+[2022.04.23-12.02.57:299][244]LogMaterial: Display: Missing cached shader map for material Icon_Paper_Mat, compiling. 
+[2022.04.23-12.02.57:320][244]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 12
+[2022.04.23-12.02.57:320][244]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2022.04.23-12.02.57:320][244]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.23-12.02.57:320][244]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.02.57:320][244]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2022.04.23-12.02.57:320][244]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2022.04.23-12.02.57:396][245]LogMaterial: Display: Material /Game/HorrorEngine/Textures/HUD/Icon_Paper_Mat.Icon_Paper_Mat needed to have new flag set bUsedWithStaticLighting !
+[2022.04.23-12.02.57:414][245]LogMaterial: Display: Missing cached shader map for material Icon_Paper_Mat, compiling. 
+[2022.04.23-12.02.57:423][245]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 21
+[2022.04.23-12.02.57:423][245]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 19
+[2022.04.23-12.02.57:423][245]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 17
+[2022.04.23-12.02.57:423][245]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 15
+[2022.04.23-12.02.57:423][245]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2022.04.23-12.02.57:423][245]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 11
+[2022.04.23-12.02.59:003][415]Cmd: TRANSACTION UNDO
+[2022.04.23-12.02.59:003][415]LogEditorTransaction: Undo Create Actors
+[2022.04.23-12.03.00:227][470]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2022.04.23-12.03.00:544][482]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.03.00:544][482]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.03.00:578][484]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2022.04.23-12.03.00:677][485]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2022.04.23-12.03.00:756][490]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2022.04.23-12.03.00:791][492]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2022.04.23-12.03.00:826][494]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 2
+[2022.04.23-12.03.00:826][494]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1
+[2022.04.23-12.03.15:735][165]Cmd: DELETE
+[2022.04.23-12.03.15:735][165]Cmd: ACTOR DELETE
+[2022.04.23-12.03.15:752][165]LogEditorActor: Deleted Actor: Paper_C
+[2022.04.23-12.03.15:810][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2022.04.23-12.03.15:821][165]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2022.04.23-12.03.24:163][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Paper)
+[2022.04.23-12.04.15:126][942]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineDebugMaterials/HeatmapMaterial.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EngineDebugMaterials/HeatmapMaterial.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-12.04.15:126][942]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMaterials' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-12.04.18:097][293]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-12.04.18:098][293]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-12.04.18:098][293]SourceControl: fatal: D:/Program Files/Epic Games/UE_4.26/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset: 'D:/Program Files/Epic Games/UE_4.26/Engine/Content/Tutorial/SubEditors/TutorialAssets/M_smoke_subUV_blackbody.uasset' is outside repository at 'D:/Unreal/CollabProject'
+[2022.04.23-12.04.40:356][889]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.04.23-12.04.40:370][889]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.04.23-12.04.44:574][394]LogContentBrowser: Attempting asset rename: NewMaterial -> MissingMat
+[2022.04.23-12.04.44:657][394]LogContentBrowser: End creating deferred item NewMaterial
+[2022.04.23-12.04.46:081][560]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MissingMat.MissingMat
+[2022.04.23-12.04.46:129][560]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.04.46:685][560]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.04.46:691][560]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.04.47:482][607]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.23-12.04.47:482][607]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.23-12.04.47:482][607]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.04.23-12.04.47:482][607]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.23-12.04.50:355][934]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.04.50:361][934]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 13
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 12
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 10
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 7
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 6
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.04.50:369][934]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.04.50:370][934]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.04.50:821][955]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 4
+[2022.04.23-12.04.50:858][958]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2022.04.23-12.04.50:869][959]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.04.23-12.04.51:005][971]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.04.23-12.04.51:186][987]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.23-12.04.51:186][987]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.23-12.04.51:186][987]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.04.23-12.04.51:186][987]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.23-12.04.52:481][132]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.04.52:494][134]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.04.53:084][195]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.23-12.04.53:084][195]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.23-12.04.53:084][195]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.04.23-12.04.53:084][195]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.23-12.04.54:615][374]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.04.54:626][374]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.04.54:627][374]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.04.54:641][375]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.04.54:641][375]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.04.54:641][375]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.04.55:136][409]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2022.04.23-12.04.55:359][435]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.04.55:359][435]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.04.55:359][435]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.04.55:359][435]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.04.55:359][435]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.04.55:359][435]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.04.58:576][811]LogMaterialEditor: Saving and Compiling material MissingMat
+[2022.04.23-12.05.00:904][811]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.05.00:935][811]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.05.00:947][811]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.05.00:961][811]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 12
+[2022.04.23-12.05.00:961][811]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 10
+[2022.04.23-12.05.00:961][811]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 8
+[2022.04.23-12.05.01:015][811]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2022.04.23-12.05.01:077][811]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.23-12.05.01:613][811]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.23-12.05.01:613][811]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2022.04.23-12.05.01:613][811]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2022.04.23-12.05.01:613][811]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2022.04.23-12.05.01:613][811]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2022.04.23-12.05.01:743][811]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 3
+[2022.04.23-12.05.01:743][811]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 2
+[2022.04.23-12.05.01:743][811]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2022.04.23-12.05.01:762][811]TextureStreamingBuild: Display: Compiling optional shaders took 0.696 seconds.
+[2022.04.23-12.05.01:852][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.04.23-12.05.02:205][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MissingMat" FILE="../../../../../../Unreal/CollabProject/Content/MissingMat.uasset" SILENT=true
+[2022.04.23-12.05.02:210][811]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/MissingMatA4797B0240A100B81A9A0298ECBF722B.tmp' to '../../../../../../Unreal/CollabProject/Content/MissingMat.uasset'
+[2022.04.23-12.05.02:459][811]AssetCheck: New page: Asset Save: MissingMat
+[2022.04.23-12.05.02:459][811]LogContentValidation: Display: Validating Material /Game/MissingMat.MissingMat
+[2022.04.23-12.05.02:460][811]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.05.02:460][811]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.05.02:460][811]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.05.02:460][811]MaterialEditorStats: Texture samplers: 4/16
+[2022.04.23-12.05.02:460][811]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.05.02:460][811]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.05.13:830][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MissingPoster" FILE="../../../../../../Unreal/CollabProject/Content/MissingPoster.uasset" SILENT=true
+[2022.04.23-12.05.14:013][102]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/MissingPoster841A076D48EECF13F8FF5584C8E6335D.tmp' to '../../../../../../Unreal/CollabProject/Content/MissingPoster.uasset'
+[2022.04.23-12.05.14:549][102]AssetCheck: New page: Asset Save: MissingPoster
+[2022.04.23-12.05.14:549][102]LogContentValidation: Display: Validating Texture2D /Game/MissingPoster.MissingPoster
+[2022.04.23-12.05.16:161][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DeadPoster" FILE="../../../../../../Unreal/CollabProject/Content/DeadPoster.uasset" SILENT=true
+[2022.04.23-12.05.16:373][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/DeadPoster3DD0FA3E42616948F92BB68F5E45719D.tmp' to '../../../../../../Unreal/CollabProject/Content/DeadPoster.uasset'
+[2022.04.23-12.05.16:931][265]AssetCheck: New page: Asset Save: DeadPoster
+[2022.04.23-12.05.16:931][265]LogContentValidation: Display: Validating Texture2D /Game/DeadPoster.DeadPoster
+[2022.04.23-12.05.51:000][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.04.23-12.05.51:008][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Saved/Autosaves/Game/Level_Blockout_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.23-12.05.51:148][279]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_Blockout_Auto6AAFBD2394C04C930AD4F7DA4300A9212.tmp' to '../../../../../../Unreal/CollabProject/Saved/Autosaves/Game/Level_Blockout_Auto6.umap'
+[2022.04.23-12.05.51:149][279]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_Blockout' took 0.178
+[2022.04.23-12.05.51:149][279]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.178
+[2022.04.23-12.05.53:466][533]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.04.23-12.05.53:485][533]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.04.23-12.05.57:106][968]LogContentBrowser: Attempting asset rename: NewMaterial -> DeadMat
+[2022.04.23-12.05.57:199][968]LogContentBrowser: End creating deferred item NewMaterial
+[2022.04.23-12.05.59:211][188]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/DeadMat.DeadMat
+[2022.04.23-12.05.59:212][188]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.05.59:247][188]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.05.59:259][188]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.06.00:033][253]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.23-12.06.00:033][253]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.23-12.06.00:033][253]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.04.23-12.06.00:033][253]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.23-12.06.02:920][582]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.06.02:925][582]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.06.02:930][582]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.06.02:932][582]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.06.02:956][583]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.06.02:956][583]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.06.02:956][583]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.06.03:420][613]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.06.03:687][641]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.23-12.06.03:687][641]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.23-12.06.03:687][641]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.04.23-12.06.03:687][641]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.23-12.06.05:139][813]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.06.05:150][813]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.06.05:152][813]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.06.05:164][814]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.06.05:164][814]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.06.05:164][814]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.06.05:668][849]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2022.04.23-12.06.05:881][870]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.06.05:881][870]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.06.05:881][870]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.06.05:881][870]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.06.05:881][870]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.06.05:881][870]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.06.06:309][920]LogMaterialEditor: Saving and Compiling material DeadMat
+[2022.04.23-12.06.06:700][920]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.06.06:735][920]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.06.06:746][920]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.06.06:758][920]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 12
+[2022.04.23-12.06.06:759][920]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 10
+[2022.04.23-12.06.06:759][920]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 8
+[2022.04.23-12.06.06:802][920]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2022.04.23-12.06.06:812][920]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.23-12.06.07:348][920]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.23-12.06.07:348][920]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2022.04.23-12.06.07:348][920]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2022.04.23-12.06.07:348][920]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2022.04.23-12.06.07:537][920]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2022.04.23-12.06.07:537][920]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2022.04.23-12.06.07:537][920]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.23-12.06.07:537][920]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2022.04.23-12.06.07:540][920]TextureStreamingBuild: Display: Compiling optional shaders took 0.733 seconds.
+[2022.04.23-12.06.07:590][920]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2022.04.23-12.06.07:948][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DeadMat" FILE="../../../../../../Unreal/CollabProject/Content/DeadMat.uasset" SILENT=true
+[2022.04.23-12.06.07:954][920]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/DeadMat6B1FBA874E23C5AC927BCAAAAD0B6080.tmp' to '../../../../../../Unreal/CollabProject/Content/DeadMat.uasset'
+[2022.04.23-12.06.08:370][920]AssetCheck: New page: Asset Save: DeadMat
+[2022.04.23-12.06.08:370][920]LogContentValidation: Display: Validating Material /Game/DeadMat.DeadMat
+[2022.04.23-12.06.08:370][920]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.06.08:370][920]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.06.08:370][920]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.06.08:370][920]MaterialEditorStats: Texture samplers: 4/16
+[2022.04.23-12.06.08:370][920]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.06.08:370][920]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.06.11:665][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.04.23-12.06.11:750][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-12.06.11:778][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.04.23-12.06.11:913][276]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_BlockoutDE3B43D0416678F538780FB6CFCD3035.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-12.06.11:917][276]LogFileHelpers: Saving map 'Level_Blockout' took 0.167
+[2022.04.23-12.06.11:929][276]AssetCheck: New page: Asset Save: Level_Blockout
+[2022.04.23-12.06.11:929][276]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.06.14:683][605]Warning: Invalid subscript in default properties: (Inventory)=(ButtonImage_34_B52AF618412E524419D6BA9EF5FFF071=Texture2D'"/Game/HorrorEngine/Textures/HUD/Input_MouseRightAndMiddle.Input_MouseRightAndMiddle"')
+[2022.04.23-12.07.03:993][350]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-12.07.03:997][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-12.07.03:997][350]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 14:07:03)
+[2022.04.23-12.07.04:042][350]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.07.04:086][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044677s)
+[2022.04.23-12.07.04:087][350]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-12.07.04:087][350]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2022.04.23-12.07.04:088][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.045886s)
+[2022.04.23-12.07.04:128][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.04.23-12.07.04:136][350]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2022.04.23-12.07.04:136][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-12.07.04:136][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-12.07.04:136][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-12.07.04:136][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-12.07.04:136][350]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-12.07.04:136][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-12.07.04:136][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-12.07.04:136][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-12.07.04:137][350]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-12.07.04:137][350]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-12.07.04:140][350]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-12.07.04:140][350]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-12.07.04:146][350]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-12.07.04:147][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-12.07.04:147][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-12.07.04:147][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-12.07.04:147][350]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-12.07.04:147][350]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-12.07.04:147][350]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-12.07.04:158][350]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-12.07.04:158][350]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-12.07.04:158][350]LogInit: FAudioDevice initialized.
+[2022.04.23-12.07.04:158][350]LogAudio: Display: Audio Device (ID: 41) registered with world 'Level_Blockout'.
+[2022.04.23-12.07.04:173][350]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-12.07.04:187][350]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-13.07.04
+[2022.04.23-12.07.04:188][350]LogWorld: Bringing up level for play took: 0.012946
+[2022.04.23-12.07.04:188][350]LogOnline: OSS: Creating online subsystem instance for: :Context_105
+[2022.04.23-12.07.04:190][350]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-12.07.04:194][350]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-12.07.04:198][350]PIE: Server logged in
+[2022.04.23-12.07.04:199][350]PIE: Play in editor total start time 0.202 seconds.
+[2022.04.23-12.08.11:250][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.08.11:250][384]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.08.11:251][384]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-12.08.11:253][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.08.11:259][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-12.08.11:281][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.08.11:309][384]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-12.08.11:311][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.08.11:312][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.08.11:324][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.08.11:337][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.04.23-12.08.11:376][385]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2022.04.23-12.10.32:452][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\liamg\Desktop\GroupProject\MissingPosterSmall.png)
+[2022.04.23-12.10.32:464][532]LogTexture: Display: Building textures: MissingPosterSmall (BGRA8, 620X877)
+[2022.04.23-12.10.32:566][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\liamg\Desktop\GroupProject\DeadPosterSmall.png)
+[2022.04.23-12.10.32:579][532]LogTexture: Display: Building textures: DeadPosterSmall (BGRA8, 620X877)
+[2022.04.23-12.10.39:186][188]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.10.39:191][188]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.10.39:199][188]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.10.39:200][188]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.10.39:202][188]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.04.23-12.10.39:288][191]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 8
+[2022.04.23-12.10.39:288][191]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 7
+[2022.04.23-12.10.39:288][191]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 6
+[2022.04.23-12.10.39:829][231]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 5
+[2022.04.23-12.10.39:856][233]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.10.39:881][235]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2022.04.23-12.10.39:881][235]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2022.04.23-12.10.39:980][242]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2022.04.23-12.10.40:272][266]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.10.40:272][266]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.10.40:272][266]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.10.40:272][266]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.10.40:272][266]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.10.40:272][266]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.10.42:618][541]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.10.42:630][543]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.10.42:631][543]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.10.43:226][599]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.10.43:226][599]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.10.43:226][599]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.10.43:226][599]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.10.43:226][599]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.10.43:226][599]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.10.44:618][758]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.10.44:630][758]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.10.44:633][758]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.10.44:648][760]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.10.44:648][760]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.10.44:649][760]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.10.45:134][799]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2022.04.23-12.10.45:359][822]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.10.45:359][822]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.10.45:359][822]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.10.45:359][822]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.10.45:359][822]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.10.45:359][822]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.10.52:785][675]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.10.52:790][675]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 13
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 12
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 10
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 7
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 6
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.10.52:799][675]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.10.52:802][675]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.10.52:804][675]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.04.23-12.10.53:288][702]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.23-12.10.53:321][705]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 7
+[2022.04.23-12.10.53:321][705]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2022.04.23-12.10.53:334][706]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 5
+[2022.04.23-12.10.53:413][713]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2022.04.23-12.10.53:413][713]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 3
+[2022.04.23-12.10.53:472][718]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2022.04.23-12.10.53:541][723]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2022.04.23-12.10.53:631][728]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.10.53:631][728]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.10.53:631][728]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.10.53:631][728]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.10.53:631][728]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.10.53:631][728]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.10.54:361][810]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.10.54:369][810]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 13
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 12
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 10
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 8
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 7
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 6
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.10.54:373][810]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.10.54:880][842]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2022.04.23-12.10.55:104][866]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.10.55:104][866]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.10.55:104][866]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.10.55:104][866]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.10.55:104][866]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.10.55:104][866]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.10.58:057][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.04.23-12.10.58:190][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-12.10.58:218][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.04.23-12.10.58:356][210]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_BlockoutF831478A42FBA972C3C703959000773D.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-12.10.58:359][210]LogFileHelpers: Saving map 'Level_Blockout' took 0.169
+[2022.04.23-12.10.58:363][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MissingPosterSmall" FILE="../../../../../../Unreal/CollabProject/Content/MissingPosterSmall.uasset" SILENT=true
+[2022.04.23-12.10.58:400][210]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/MissingPosterSmall5CDF1CF1467431D9FB5F869E82C8B1BA.tmp' to '../../../../../../Unreal/CollabProject/Content/MissingPosterSmall.uasset'
+[2022.04.23-12.10.58:696][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DeadPosterSmall" FILE="../../../../../../Unreal/CollabProject/Content/DeadPosterSmall.uasset" SILENT=true
+[2022.04.23-12.10.58:718][210]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/DeadPosterSmallABBD2BD74D5CEA4936C6C28C1340534F.tmp' to '../../../../../../Unreal/CollabProject/Content/DeadPosterSmall.uasset'
+[2022.04.23-12.10.58:944][210]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.23-12.10.58:944][210]LogContentValidation: Display: Validating Texture2D /Game/DeadPosterSmall.DeadPosterSmall
+[2022.04.23-12.10.58:944][210]LogContentValidation: Display: Validating Texture2D /Game/MissingPosterSmall.MissingPosterSmall
+[2022.04.23-12.10.58:944][210]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.11.00:155][348]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-12.11.00:159][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-12.11.00:159][348]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 14:11:00)
+[2022.04.23-12.11.00:195][348]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.11.00:235][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040849s)
+[2022.04.23-12.11.00:236][348]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-12.11.00:236][348]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2022.04.23-12.11.00:236][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.041921s)
+[2022.04.23-12.11.00:266][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.04.23-12.11.00:268][348]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-12.11.00:268][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-12.11.00:268][348]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-12.11.00:268][348]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-12.11.00:270][348]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-12.11.00:270][348]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-12.11.00:276][348]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-12.11.00:277][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-12.11.00:277][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-12.11.00:277][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-12.11.00:277][348]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-12.11.00:277][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-12.11.00:277][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-12.11.00:287][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-12.11.00:288][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-12.11.00:288][348]LogInit: FAudioDevice initialized.
+[2022.04.23-12.11.00:288][348]LogAudio: Display: Audio Device (ID: 42) registered with world 'Level_Blockout'.
+[2022.04.23-12.11.00:298][348]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-12.11.00:309][348]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-13.11.00
+[2022.04.23-12.11.00:309][348]LogWorld: Bringing up level for play took: 0.010071
+[2022.04.23-12.11.00:310][348]LogOnline: OSS: Creating online subsystem instance for: :Context_106
+[2022.04.23-12.11.00:311][348]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-12.11.00:314][348]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-12.11.00:318][348]PIE: Server logged in
+[2022.04.23-12.11.00:318][348]PIE: Play in editor total start time 0.16 seconds.
+[2022.04.23-12.11.49:294][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.11.49:294][214]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.11.49:294][214]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-12.11.49:296][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.11.49:304][214]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-12.11.49:327][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.11.49:358][214]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.23-12.11.49:358][214]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.11.49:359][214]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.11.49:371][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.11.49:379][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.04.23-12.11.49:418][215]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2022.04.23-12.12.02:879][776]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.23-12.12.02:899][776]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.23-12.12.07:865][371]LogContentBrowser: Attempting asset rename: NewFolder -> Posters
+[2022.04.23-12.12.07:911][371]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.23-12.12.16:937][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/MissingPosterSmall" FILE="../../../../../../Unreal/CollabProject/Content/Posters/MissingPosterSmall.uasset" SILENT=true
+[2022.04.23-12.12.16:942][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/MissingPosterSmall679747B24CB9E21105E64FB1BAB41099.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/MissingPosterSmall.uasset'
+[2022.04.23-12.12.17:137][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/MissingPoster" FILE="../../../../../../Unreal/CollabProject/Content/Posters/MissingPoster.uasset" SILENT=true
+[2022.04.23-12.12.17:153][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/MissingPoster630D930043C2B7C2D6F25FB9F68D7398.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/MissingPoster.uasset'
+[2022.04.23-12.12.17:507][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/MissingMat" FILE="../../../../../../Unreal/CollabProject/Content/Posters/MissingMat.uasset" SILENT=true
+[2022.04.23-12.12.17:511][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/MissingMatA942581B432B6ED15495FBA072984547.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/MissingMat.uasset'
+[2022.04.23-12.12.17:723][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MissingMat" FILE="../../../../../../Unreal/CollabProject/Content/MissingMat.uasset" SILENT=true
+[2022.04.23-12.12.17:723][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/MissingMatD405E40D41C68C3DA8322089ADD4C87C.tmp' to '../../../../../../Unreal/CollabProject/Content/MissingMat.uasset'
+[2022.04.23-12.12.17:727][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/DeadPosterSmall" FILE="../../../../../../Unreal/CollabProject/Content/Posters/DeadPosterSmall.uasset" SILENT=true
+[2022.04.23-12.12.17:733][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/DeadPosterSmall9D4ED2EC4329CE968C8180A0251B652F.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/DeadPosterSmall.uasset'
+[2022.04.23-12.12.17:975][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/DeadPoster" FILE="../../../../../../Unreal/CollabProject/Content/Posters/DeadPoster.uasset" SILENT=true
+[2022.04.23-12.12.17:994][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/DeadPosterE6C1F3C546460EDC66C602943864E38A.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/DeadPoster.uasset'
+[2022.04.23-12.12.18:404][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/DeadMat" FILE="../../../../../../Unreal/CollabProject/Content/Posters/DeadMat.uasset" SILENT=true
+[2022.04.23-12.12.18:409][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/DeadMatA6A1CE694BF5E23F6CE19FB0D3A37FAC.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/DeadMat.uasset'
+[2022.04.23-12.12.18:591][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DeadMat" FILE="../../../../../../Unreal/CollabProject/Content/DeadMat.uasset" SILENT=true
+[2022.04.23-12.12.18:592][265]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/DeadMatFFD549AA4BAABCD885C15899C4E733A0.tmp' to '../../../../../../Unreal/CollabProject/Content/DeadMat.uasset'
+[2022.04.23-12.12.19:263][265]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.04.23-12.12.19:300][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.04.23-12.12.19:328][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.04.23-12.12.19:355][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.04.23-12.12.19:391][265]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.04.23-12.12.19:419][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.04.23-12.12.19:539][265]SourceControl: rm 'Content/DeadPoster.uasset'
+[2022.04.23-12.12.19:539][265]SourceControl: rm 'Content/DeadPosterSmall.uasset'
+[2022.04.23-12.12.19:539][265]SourceControl: rm 'Content/MissingPoster.uasset'
+[2022.04.23-12.12.19:539][265]SourceControl: rm 'Content/MissingPosterSmall.uasset'
+[2022.04.23-12.12.19:765][265]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.23-12.12.19:765][265]LogContentValidation: Display: Validating Material /Game/Posters/MissingMat.MissingMat
+[2022.04.23-12.12.19:766][265]LogContentValidation: Display: Validating ObjectRedirector /Game/DeadMat.DeadMat
+[2022.04.23-12.12.19:766][265]LogContentValidation: Display: Validating ObjectRedirector /Game/MissingMat.MissingMat
+[2022.04.23-12.12.19:766][265]LogContentValidation: Display: Validating Material /Game/Posters/DeadMat.DeadMat
+[2022.04.23-12.12.19:766][265]LogContentValidation: Display: Validating Texture2D /Game/Posters/DeadPosterSmall.DeadPosterSmall
+[2022.04.23-12.12.19:766][265]LogContentValidation: Display: Validating Texture2D /Game/Posters/MissingPosterSmall.MissingPosterSmall
+[2022.04.23-12.12.19:766][265]LogContentValidation: Display: Validating Texture2D /Game/Posters/MissingPoster.MissingPoster
+[2022.04.23-12.12.19:766][265]LogContentValidation: Display: Validating Texture2D /Game/Posters/DeadPoster.DeadPoster
+[2022.04.23-12.12.24:659][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.04.23-12.12.24:745][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-12.12.24:773][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.04.23-12.12.24:909][786]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_BlockoutCFD1EAAF46E77133796F0DB5BFB77B10.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-12.12.24:912][786]LogFileHelpers: Saving map 'Level_Blockout' took 0.168
+[2022.04.23-12.12.24:925][786]AssetCheck: New page: Asset Save: Level_Blockout
+[2022.04.23-12.12.24:925][786]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.12.51:295][902]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable17)
+[2022.04.23-12.12.55:599][393]Cmd: TRANSACTION UNDO
+[2022.04.23-12.12.55:599][393]LogEditorTransaction: Undo Scale Actors
+[2022.04.23-12.12.55:624][393]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.12.55:634][393]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.12.55:634][393]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.12.55:905][400]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 9
+[2022.04.23-12.12.55:905][400]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 8
+[2022.04.23-12.12.55:905][400]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 7
+[2022.04.23-12.12.56:493][427]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2022.04.23-12.12.56:521][429]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2022.04.23-12.12.56:521][429]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 4
+[2022.04.23-12.12.56:533][430]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 3
+[2022.04.23-12.12.56:635][439]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2022.04.23-12.12.56:717][445]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2022.04.23-12.12.56:823][453]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.12.56:823][453]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.12.56:823][453]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.12.56:823][453]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.12.56:823][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.12.56:823][453]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.12.57:134][485]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.12.57:134][485]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.12.57:134][485]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.12.57:134][485]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.12.57:134][485]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.12.57:134][485]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.13.07:013][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.04.23-12.13.07:915][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-12.13.07:944][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.04.23-12.13.08:081][606]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_Blockout476C39DC4C6E7214B0B842AC7B217ABB.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-12.13.08:084][606]LogFileHelpers: Saving map 'Level_Blockout' took 0.169
+[2022.04.23-12.13.08:097][606]AssetCheck: New page: Asset Save: Level_Blockout
+[2022.04.23-12.13.08:097][606]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.16.20:477][918]Cmd: stat streaming
+[2022.04.23-12.16.20:669][933]LogStats: Display: There is no thread with id: 16580. Please add thread metadata for this thread.
+[2022.04.23-12.16.20:903][961]LogStats: Display: There is no thread with id: 47184. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:012][974]LogStats: Display: There is no thread with id: 24940. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:037][977]LogStats: Display: There is no thread with id: 29176. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:070][981]LogStats: Display: There is no thread with id: 35280. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:145][990]LogStats: Display: There is no thread with id: 40908. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:161][992]LogStats: Display: There is no thread with id: 44144. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:262][  4]LogStats: Display: There is no thread with id: 45880. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:287][  7]LogStats: Display: There is no thread with id: 31400. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:337][ 13]LogStats: Display: There is no thread with id: 5888. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:395][ 20]LogStats: Display: There is no thread with id: 17104. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:437][ 25]LogStats: Display: There is no thread with id: 45756. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:561][ 40]LogStats: Display: There is no thread with id: 13976. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:637][ 49]LogStats: Display: There is no thread with id: 39172. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:653][ 51]LogStats: Display: There is no thread with id: 33496. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:754][ 63]LogStats: Display: There is no thread with id: 23816. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:821][ 71]LogStats: Display: There is no thread with id: 43860. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:845][ 74]LogStats: Display: There is no thread with id: 47748. Please add thread metadata for this thread.
+[2022.04.23-12.16.21:920][ 83]LogStats: Display: There is no thread with id: 39444. Please add thread metadata for this thread.
+[2022.04.23-12.16.22:187][115]LogStats: Display: There is no thread with id: 44116. Please add thread metadata for this thread.
+[2022.04.23-12.16.22:337][133]LogStats: Display: There is no thread with id: 13780. Please add thread metadata for this thread.
+[2022.04.23-12.16.22:370][137]LogStats: Display: There is no thread with id: 47880. Please add thread metadata for this thread.
+[2022.04.23-12.16.22:695][176]LogStats: Display: There is no thread with id: 33800. Please add thread metadata for this thread.
+[2022.04.23-12.16.22:821][191]LogStats: Display: There is no thread with id: 37700. Please add thread metadata for this thread.
+[2022.04.23-12.16.22:862][196]LogStats: Display: There is no thread with id: 37236. Please add thread metadata for this thread.
+[2022.04.23-12.16.22:937][205]LogStats: Display: There is no thread with id: 13328. Please add thread metadata for this thread.
+[2022.04.23-12.16.23:237][241]LogStats: Display: There is no thread with id: 40648. Please add thread metadata for this thread.
+[2022.04.23-12.16.24:554][399]LogStats: Display: There is no thread with id: 10924. Please add thread metadata for this thread.
+[2022.04.23-12.16.27:862][796]LogStats: Display: There is no thread with id: 34332. Please add thread metadata for this thread.
+[2022.04.23-12.16.52:258][714]Cmd: r.Streaming.PoolSize 1000
+[2022.04.23-12.16.52:258][714]r.Streaming.PoolSize = "1000"
+[2022.04.23-12.17.08:855][565]Cmd: stat streaming
+[2022.04.23-12.17.10:929][813]Cmd: stat streaming
+[2022.04.23-12.17.27:060][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-12.17.27:065][ 42]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.04.23-12.17.27:066][ 42]LogPlayLevel: [PlayLevel] Compiling Level_Blockout before play...
+[2022.04.23-12.17.27:131][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2022.04.23-12.17.27:152][ 42]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2022.04.23-12.17.27:152][ 42]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 14:17:27)
+[2022.04.23-12.17.27:152][ 42]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.17.27:196][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044126s)
+[2022.04.23-12.17.27:197][ 42]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-12.17.27:197][ 42]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2022.04.23-12.17.27:197][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.045375s)
+[2022.04.23-12.17.27:228][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.04.23-12.17.27:228][ 42]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-12.17.27:228][ 42]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-12.17.27:228][ 42]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-12.17.27:228][ 42]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-12.17.27:231][ 42]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-12.17.27:231][ 42]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-12.17.27:237][ 42]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-12.17.27:238][ 42]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-12.17.27:238][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-12.17.27:238][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-12.17.27:238][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-12.17.27:238][ 42]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-12.17.27:238][ 42]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-12.17.27:249][ 42]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-12.17.27:249][ 42]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-12.17.27:249][ 42]LogInit: FAudioDevice initialized.
+[2022.04.23-12.17.27:249][ 42]LogAudio: Display: Audio Device (ID: 43) registered with world 'Level_Blockout'.
+[2022.04.23-12.17.27:258][ 42]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-12.17.27:278][ 42]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-13.17.27
+[2022.04.23-12.17.27:278][ 42]LogWorld: Bringing up level for play took: 0.018457
+[2022.04.23-12.17.27:278][ 42]LogOnline: OSS: Creating online subsystem instance for: :Context_107
+[2022.04.23-12.17.27:280][ 42]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-12.17.27:284][ 42]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-12.17.27:290][ 42]PIE: Server logged in
+[2022.04.23-12.17.27:291][ 42]PIE: Play in editor total start time 0.227 seconds.
+[2022.04.23-12.17.27:560][ 65]LogStats: Display: There is no thread with id: 44088. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:584][ 68]LogStats: Display: There is no thread with id: 35928. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:650][ 76]LogStats: Display: There is no thread with id: 4780. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:667][ 78]LogStats: Display: There is no thread with id: 43100. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:692][ 81]LogStats: Display: There is no thread with id: 44152. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:817][ 96]LogStats: Display: There is no thread with id: 2504. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:859][101]LogStats: Display: There is no thread with id: 21384. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:884][104]LogStats: Display: There is no thread with id: 24660. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:950][112]LogStats: Display: There is no thread with id: 39596. Please add thread metadata for this thread.
+[2022.04.23-12.17.27:967][114]LogStats: Display: There is no thread with id: 43120. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:009][119]LogStats: Display: There is no thread with id: 3952. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:051][124]LogStats: Display: There is no thread with id: 24180. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:084][128]LogStats: Display: There is no thread with id: 19748. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:217][144]LogStats: Display: There is no thread with id: 39568. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:334][158]LogStats: Display: There is no thread with id: 28356. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:350][160]LogStats: Display: There is no thread with id: 25672. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:401][166]LogStats: Display: There is no thread with id: 8544. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:459][173]LogStats: Display: There is no thread with id: 39688. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:609][191]LogStats: Display: There is no thread with id: 47996. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:934][230]LogStats: Display: There is no thread with id: 46564. Please add thread metadata for this thread.
+[2022.04.23-12.17.28:968][234]LogStats: Display: There is no thread with id: 36936. Please add thread metadata for this thread.
+[2022.04.23-12.17.29:009][239]LogStats: Display: There is no thread with id: 32540. Please add thread metadata for this thread.
+[2022.04.23-12.17.29:059][245]LogStats: Display: There is no thread with id: 5348. Please add thread metadata for this thread.
+[2022.04.23-12.17.29:459][293]LogStats: Display: There is no thread with id: 44852. Please add thread metadata for this thread.
+[2022.04.23-12.17.29:485][296]LogStats: Display: There is no thread with id: 43536. Please add thread metadata for this thread.
+[2022.04.23-12.17.29:592][309]LogStats: Display: There is no thread with id: 47884. Please add thread metadata for this thread.
+[2022.04.23-12.17.29:634][314]LogStats: Display: There is no thread with id: 27684. Please add thread metadata for this thread.
+[2022.04.23-12.17.30:592][429]LogStats: Display: There is no thread with id: 17216. Please add thread metadata for this thread.
+[2022.04.23-12.17.30:851][460]LogStats: Display: There is no thread with id: 47512. Please add thread metadata for this thread.
+[2022.04.23-12.17.32:737][685]Cmd: stat streaming
+[2022.04.23-12.17.45:834][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.17.45:834][249]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.17.45:834][249]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-12.17.45:836][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.17.45:841][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-12.17.45:864][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.17.45:894][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.17.45:895][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.17.45:896][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.17.45:914][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2022.04.23-12.17.45:959][250]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2022.04.23-12.18.03:545][280]Cmd: r.Streaming.PoolSize 1500
+[2022.04.23-12.18.03:545][280]r.Streaming.PoolSize = "1500"
+[2022.04.23-12.18.03:579][284]LogContentStreaming: Texture pool size now 1500 MB
+[2022.04.23-12.18.05:986][561]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.23-12.18.05:989][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.23-12.18.05:989][561]PIE: New page: PIE session: Level_Blockout (23 Apr 2022, 14:18:05)
+[2022.04.23-12.18.06:011][561]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.18.06:053][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041261s)
+[2022.04.23-12.18.06:053][561]LogAIModule: Creating AISystem for world Level_Blockout
+[2022.04.23-12.18.06:054][561]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2022.04.23-12.18.06:054][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Blockout.Level_Blockout to /Game/UEDPIE_0_Level_Blockout.Level_Blockout (0.042174s)
+[2022.04.23-12.18.06:084][561]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.04.23-12.18.06:087][561]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.23-12.18.06:087][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.23-12.18.06:087][561]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.23-12.18.06:087][561]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.23-12.18.06:090][561]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.23-12.18.06:090][561]LogAudioMixer: Display: 1: FrontRight
+[2022.04.23-12.18.06:096][561]LogAudioMixer: Display: Using Audio Device AAA (NVIDIA High Definition Audio)
+[2022.04.23-12.18.06:096][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.23-12.18.06:097][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.23-12.18.06:097][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.23-12.18.06:097][561]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.23-12.18.06:097][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.23-12.18.06:097][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.23-12.18.06:108][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.23-12.18.06:108][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.23-12.18.06:108][561]LogInit: FAudioDevice initialized.
+[2022.04.23-12.18.06:108][561]LogAudio: Display: Audio Device (ID: 44) registered with world 'Level_Blockout'.
+[2022.04.23-12.18.06:114][561]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2022.04.23-12.18.06:125][561]LogWorld: Bringing World /Game/UEDPIE_0_Level_Blockout.Level_Blockout up for play (max tick rate 0) at 2022.04.23-13.18.06
+[2022.04.23-12.18.06:126][561]LogWorld: Bringing up level for play took: 0.009969
+[2022.04.23-12.18.06:126][561]LogOnline: OSS: Creating online subsystem instance for: :Context_108
+[2022.04.23-12.18.06:127][561]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.04.23-12.18.06:130][561]LogStreaming: Warning: Failed to read file '../../../../../../Unreal/CollabProject/Saved/SaveGames/SaveSlotList.sav' error.
+[2022.04.23-12.18.06:134][561]PIE: Server logged in
+[2022.04.23-12.18.06:135][561]PIE: Play in editor total start time 0.146 seconds.
+[2022.04.23-12.18.26:242][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.18.26:242][846]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level_Blockout
+[2022.04.23-12.18.26:242][846]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2022.04.23-12.18.26:244][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.18.26:252][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.23-12.18.26:272][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.23-12.18.26:300][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.23-12.18.26:302][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.18.26:303][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.23-12.18.26:321][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.04.23-12.18.26:361][847]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2022.04.23-12.18.34:395][805]Cmd: stat streaming
+[2022.04.23-12.18.40:319][514]Cmd: stat streaming
+[2022.04.23-12.18.51:743][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.04.23-12.18.51:897][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-12.18.51:926][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.04.23-12.18.52:065][655]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_BlockoutDAAD834C409C8B894F1182B558E1EE64.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-12.18.52:103][655]LogFileHelpers: Saving map 'Level_Blockout' took 0.207
+[2022.04.23-12.18.52:116][655]AssetCheck: New page: Asset Save: Level_Blockout
+[2022.04.23-12.18.52:116][655]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.20.18:364][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mesh_Floor_Bedroom_02)
+[2022.04.23-12.20.30:064][313]LogActorFactory: Actor Factory created Paper
+[2022.04.23-12.20.30:862][402]LogActorFactory: Actor Factory created Paper
+[2022.04.23-12.21.05:742][454]Cmd: TRANSACTION UNDO
+[2022.04.23-12.21.05:742][454]LogEditorTransaction: Undo Scale Actors
+[2022.04.23-12.21.05:743][454]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.21.05:749][454]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.21.05:753][454]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.21.05:823][455]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 9
+[2022.04.23-12.21.05:823][455]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 8
+[2022.04.23-12.21.05:823][455]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 7
+[2022.04.23-12.21.06:402][473]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2022.04.23-12.21.06:418][474]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2022.04.23-12.21.06:433][475]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.21.06:487][479]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 3
+[2022.04.23-12.21.06:554][484]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2022.04.23-12.21.06:686][493]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2022.04.23-12.21.06:804][501]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.21.06:804][501]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.21.06:804][501]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.21.06:804][501]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.21.06:804][501]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.21.06:804][501]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.21.07:076][530]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.21.07:076][530]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.21.07:076][530]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.21.07:076][530]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.21.07:076][530]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.21.07:076][530]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.21.07:541][585]Cmd: TRANSACTION UNDO
+[2022.04.23-12.21.07:541][585]LogEditorTransaction: Undo Scale Actors
+[2022.04.23-12.21.07:542][585]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.21.07:548][585]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 18
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 17
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 16
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 15
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 14
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 13
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 12
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 11
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 10
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 9
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 8
+[2022.04.23-12.21.07:552][585]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 7
+[2022.04.23-12.21.08:124][620]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 6
+[2022.04.23-12.21.08:140][621]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2022.04.23-12.21.08:156][622]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.21.08:276][632]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2022.04.23-12.21.08:303][634]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2022.04.23-12.21.08:416][640]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2022.04.23-12.21.08:529][649]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.21.08:529][649]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.21.08:529][649]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.21.08:529][649]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.21.08:529][649]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.21.08:529][649]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.21.08:565][652]Cmd: TRANSACTION UNDO
+[2022.04.23-12.21.08:565][652]LogEditorTransaction: Undo Scale Actors
+[2022.04.23-12.21.08:568][652]LogMaterial: Display: Missing cached shader map for material MissingMat, compiling. 
+[2022.04.23-12.21.08:573][652]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.21.08:573][652]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 8
+[2022.04.23-12.21.08:573][652]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 7
+[2022.04.23-12.21.08:573][652]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 6
+[2022.04.23-12.21.08:573][652]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 5
+[2022.04.23-12.21.08:573][652]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 4
+[2022.04.23-12.21.08:576][652]LogMaterial: Display: Missing cached shader map for material DeadMat, compiling. 
+[2022.04.23-12.21.08:592][652]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 12
+[2022.04.23-12.21.08:885][669]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 11
+[2022.04.23-12.21.08:885][669]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2022.04.23-12.21.08:916][671]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 9
+[2022.04.23-12.21.08:994][677]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.21.08:994][677]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 7
+[2022.04.23-12.21.09:102][684]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2022.04.23-12.21.09:155][687]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 5
+[2022.04.23-12.21.09:453][706]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.21.09:454][706]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.04.23-12.21.09:480][708]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2022.04.23-12.21.09:492][709]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1
+[2022.04.23-12.21.09:637][721]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.21.09:637][721]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.21.09:637][721]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.21.09:637][721]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.21.09:637][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.21.09:637][721]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.21.09:955][755]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.21.09:955][755]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.21.09:955][755]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.21.09:955][755]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.21.09:955][755]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.21.09:955][755]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.21.25:305][531]LogActorFactory: Actor Factory created Cube
+[2022.04.23-12.21.25:865][587]LogActorFactory: Actor Factory created Cube
+[2022.04.23-12.22.00:653][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2022.04.23-12.22.30:981][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Paper2)
+[2022.04.23-12.22.33:648][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2022.04.23-12.23.00:598][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Paper2)
+[2022.04.23-12.23.27:685][624]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2022.04.23-12.23.27:702][625]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.23-12.23.27:702][625]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.23-12.24.00:843][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SamRoomBed_a4)
+[2022.04.23-12.24.01:395][569]LogEditorViewport: Clicking on Actor (LMB): CustomInspectable_C (CustomInspectable17)
+[2022.04.23-12.24.35:181][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mesh_Wall_11)
+[2022.04.23-12.26.52:002][ 54]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\liamg\Desktop\GroupProject\EmptyPoster.png)
+[2022.04.23-12.26.52:084][ 54]LogTexture: Display: Building textures: EmptyPoster (AutoDXT, 2480X3508)
+[2022.04.23-12.26.54:639][246]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.04.23-12.26.54:654][246]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.04.23-12.26.57:966][644]LogContentBrowser: Attempting asset rename: NewMaterial -> EmptyMat
+[2022.04.23-12.26.58:035][644]LogContentBrowser: End creating deferred item NewMaterial
+[2022.04.23-12.26.59:509][815]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Posters/EmptyMat.EmptyMat
+[2022.04.23-12.26.59:510][815]LogMaterial: Display: Missing cached shader map for material EmptyMat, compiling. 
+[2022.04.23-12.26.59:546][815]LogMaterial: Display: Missing cached shader map for material EmptyMat, compiling. 
+[2022.04.23-12.26.59:556][815]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.26.59:556][815]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.26.59:557][815]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.26.59:557][815]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.26.59:557][815]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.26.59:557][815]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.26.59:557][815]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.26.59:557][815]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.26.59:557][815]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.27.00:332][882]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.23-12.27.00:332][882]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.23-12.27.00:332][882]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.04.23-12.27.00:332][882]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.23-12.27.03:318][220]LogMaterial: Display: Missing cached shader map for material EmptyMat, compiling. 
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.27.03:323][220]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.27.03:323][220]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.27.03:332][220]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.27.03:365][221]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.27.03:366][221]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.27.03:366][221]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.27.03:815][250]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2022.04.23-12.27.04:071][275]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.23-12.27.04:071][275]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.23-12.27.04:071][275]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.04.23-12.27.04:071][275]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.23-12.27.04:346][307]LogMaterial: Display: Missing cached shader map for material EmptyMat, compiling. 
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.27.04:357][307]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.27.04:359][307]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2022.04.23-12.27.04:373][308]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.23-12.27.04:373][308]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2022.04.23-12.27.04:373][308]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2022.04.23-12.27.04:886][335]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2022.04.23-12.27.05:097][356]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.27.05:097][356]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.27.05:097][356]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.27.05:098][356]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.23-12.27.05:098][356]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.27.05:098][356]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.27.05:372][389]LogMaterialEditor: Saving and Compiling material EmptyMat
+[2022.04.23-12.27.05:768][389]LogMaterial: Display: Missing cached shader map for material EmptyMat, compiling. 
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.23-12.27.05:802][389]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2022.04.23-12.27.05:814][389]LogMaterial: Display: Missing cached shader map for material EmptyMat, compiling. 
+[2022.04.23-12.27.05:824][389]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 12
+[2022.04.23-12.27.05:824][389]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 10
+[2022.04.23-12.27.05:824][389]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 8
+[2022.04.23-12.27.05:877][389]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2022.04.23-12.27.05:893][389]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.23-12.27.06:428][389]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.23-12.27.06:428][389]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2022.04.23-12.27.06:428][389]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2022.04.23-12.27.06:428][389]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2022.04.23-12.27.06:428][389]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2022.04.23-12.27.06:586][389]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2022.04.23-12.27.06:586][389]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2022.04.23-12.27.06:586][389]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2022.04.23-12.27.06:591][389]TextureStreamingBuild: Display: Compiling optional shaders took 0.703 seconds.
+[2022.04.23-12.27.06:643][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.04.23-12.27.06:994][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/EmptyMat" FILE="../../../../../../Unreal/CollabProject/Content/Posters/EmptyMat.uasset" SILENT=true
+[2022.04.23-12.27.06:998][389]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/EmptyMat239E6B36496AF504284ED5A4D0CF8A99.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/EmptyMat.uasset'
+[2022.04.23-12.27.07:197][389]AssetCheck: New page: Asset Save: EmptyMat
+[2022.04.23-12.27.07:197][389]LogContentValidation: Display: Validating Material /Game/Posters/EmptyMat.EmptyMat
+[2022.04.23-12.27.07:198][389]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.23-12.27.07:198][389]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.23-12.27.07:198][389]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.23-12.27.07:198][389]MaterialEditorStats: Texture samplers: 4/16
+[2022.04.23-12.27.07:198][389]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.23-12.27.07:198][389]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.23-12.27.08:824][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.04.23-12.27.08:968][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-12.27.08:996][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.04.23-12.27.09:136][559]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_BlockoutDE404F924B6CFC02BEAE9ABE2FC0F2DD.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-12.27.09:140][559]LogFileHelpers: Saving map 'Level_Blockout' took 0.172
+[2022.04.23-12.27.09:143][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Posters/EmptyPoster" FILE="../../../../../../Unreal/CollabProject/Content/Posters/EmptyPoster.uasset" SILENT=true
+[2022.04.23-12.27.09:243][559]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/EmptyPoster7349BC7A4C371C796C616B879AF79CA6.tmp' to '../../../../../../Unreal/CollabProject/Content/Posters/EmptyPoster.uasset'
+[2022.04.23-12.27.09:478][559]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.23-12.27.09:478][559]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.27.09:478][559]LogContentValidation: Display: Validating Texture2D /Game/Posters/EmptyPoster.EmptyPoster
+[2022.04.23-12.27.11:277][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube44)
+[2022.04.23-12.27.21:057][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.04.23-12.27.21:142][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level_Blockout" FILE="../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.23-12.27.21:169][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.04.23-12.27.21:306][868]LogSavePackage: Moving '../../../../../../Unreal/CollabProject/Saved/Level_Blockout25F4B96C49B2B66EE0B02CB0EF7CE6FB.tmp' to '../../../../../../Unreal/CollabProject/Content/Level_Blockout.umap'
+[2022.04.23-12.27.21:309][868]LogFileHelpers: Saving map 'Level_Blockout' took 0.168
+[2022.04.23-12.27.21:329][868]AssetCheck: New page: Asset Save: Level_Blockout
+[2022.04.23-12.27.21:329][868]LogContentValidation: Display: Validating World /Game/Level_Blockout.Level_Blockout
+[2022.04.23-12.27.33:523][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.04.23-12.27.54:267][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
